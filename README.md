@@ -7,6 +7,43 @@ djangorestframework = "*" <br>
 
 python_version = "3.8" <br>
 
+# Installation
+
+Upgrade pip
+
+`python -m pip install --upgrade pip`
+    
+Install pipenv
+
+    pip install pipenv
+    
+Clone Respository
+
+```git clone https://github.com/Siddyjha/LibraryManager.git```
+
+```cd LibraryManager```
+   
+In LibraryManager/
+
+    pipenv shell
+    
+Install Dependencies
+
+    pipenv install
+    
+Move to Django Project Dir
+    
+```cd LibraryManager```
+    
+In /LibraryManager/LibraryManager/
+
+    python manage.py runserver
+    
+The Backend is now running on ```http://localhost:8000/```
+
+Use an application like POSTMAN to test API
+   
+
 # API Documentation
 
 ### Student
